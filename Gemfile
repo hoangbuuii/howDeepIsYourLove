@@ -3,10 +3,12 @@ source 'https://rubygems.org'
 gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave'
 gem 'coffee-rails'
 gem 'faker'
 gem 'jbuilder'
 gem 'jquery-rails'
+gem 'mini_magick'
 gem 'puma'
 gem 'rails'
 gem 'sass-rails'
@@ -36,6 +38,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
